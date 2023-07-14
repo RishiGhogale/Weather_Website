@@ -1,0 +1,369 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    /* background-color: black; */
+    background-image: url(nature-colorful-landscape-dusk-cloud.jpg);
+}
+
+.logo img {
+    width: 50px;
+    position: absolute;
+    left: 2px;
+
+}
+
+.sidebar {
+    background-color: rgba(77, 83, 93, 0.26);
+    width: 10vw;
+    height: 83vh;
+    border-radius: 38px;
+    margin: 19px;
+    margin-top: 19px;
+    margin-top: 112px;
+}
+
+
+.sidebar img {
+
+    width: 54px;
+    height: auto;
+    margin-top: 56px;
+    padding-left: 28px;
+
+}
+
+
+
+#menu-text {
+
+    color: white;
+
+    margin-left: 30%;
+
+}
+
+#map {
+    color: #ffffffff;
+    margin-left: 30%;
+}
+
+
+
+
+
+.search-cont {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.searchbar {
+    /* background-color:rgba(77, 83, 93, 0.67); */
+    width: 60vw;
+    height: 100vh;
+    color: #ffffffff;
+}
+
+.cities {
+    /* background-color:  rgba(77, 83, 93, 0.67); */
+    width: 30vw;
+    height: 100vh;
+    margin: 10px;
+    border-radius: 5px;
+    color: #ffffffff;
+
+}
+
+
+
+.cities ul {
+
+    margin-left: 32px;
+}
+
+.cities ul li {
+
+    width: 21vw;
+    height: 6vh;
+    list-style: none;
+    margin-left: 0px;
+    font-size: xx-large;
+    padding-top: 18px;
+    padding-left: 2px;
+    margin-top: 19px;
+    padding-left: 44px;
+    border-radius: 29px;
+    background-color: rgba(77, 83, 93, 0.26);
+    padding-top: 34px;
+    padding-bottom: 17px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.temp-cont {
+
+    background-color: rgba(77, 83, 93, 0.26);
+    width: 56vw;
+    height: 53vh;
+
+    margin-top: 14px;
+    margin-left: 14px;
+    margin-top: 14px;
+    margin-left: 14px;
+    margin-top: 14px;
+    margin-left: 14px;
+    color: #ffffffff;
+    display: flex;
+    flex-direction: row;
+    border-radius: 30px;
+    margin-top: -2px;
+    margin-left: 42px;
+    margin-bottom: 25px
+}
+
+
+.temp-icon {
+    width: 50px;
+    height: auto;
+    padding-left: 41px;
+
+}
+
+.sub-cont {
+    display: flex;
+    flex-direction: row;
+}
+
+.wind {
+    width: 19%;
+    background-color: rgba(77, 83, 93, 0.26);
+    margin: 2px;
+    border-radius: 26px;
+    color: #ffffffff;
+    font-size: x-large;
+    font-weight: bold;
+    height: 24vh;
+    margin-left: px;
+    margin-top: 1px;
+padding-left: 30px;
+
+}
+
+
+.wind img {
+    width: 68px;
+margin: 0px;
+padding-left: 19px;
+padding-top: 20px;
+}
+
+.wind-speed {
+    margin-left: 55px;
+}
+
+.wind-degrees {
+    margin-left: 55px;
+}
+
+.cont2 img {
+    width: 96px;
+    margin: 34px;
+}
+
+.cont2 {
+    width: 418px;
+    background-color: rgba(77, 83, 93, 0.26);
+    margin: 2px;
+    margin: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    border-radius: 26px;
+    color: #ffffffff;
+    font-size: x-large;
+    font-weight: bold;
+    height: 29vh;
+    margin-left: 3vw;
+    margin-top: -36vh;
+}
+
+.right-cont {
+    display: flex;
+    flex-direction: column;
+}
+
+.humidity {}
+
+.input {
+
+    width: 35rem;
+    height: 28px;
+    margin: 25px;
+    margin-left: 25px;
+    margin-left: 25px;
+    border-radius: 56px;
+    padding: 16px;
+    background-color: rgba(77, 83, 93, 0.26);
+    color: #ffffffff;
+    margin-left: 55px;
+    font-size: medium;
+    font-weight: 500;
+}
+
+.search-btn {
+    width: 162px;
+    height: 46px;
+    margin-top: 33px;
+    border-radius: 25px;
+}
+
+.sun {
+    width: 183px;
+    height: auto;
+    position: absolute;
+    left: 52vw;
+    top: 26vh;
+
+}
+
+.temperature h1 h3 {
+    padding-left: 3px;
+
+}
+
+.city {
+    margin-left: 85px;
+    margin-top: 48px;
+    padding-top: 11px;
+    padding-left: 91px;
+}
+
+.mytemp {
+    margin-left: 181px;
+    margin-top: -24px;
+}
+
+.min-temp {
+    margin-left: 36px;
+    margin-top: -11px;
+}
+
+.max-temp {
+    margin-left: 104px;
+    margin-top: -11px;
+}
+
+.temp1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.weather-Deatail {
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-top: 3px;
+}
+
+
+.left-temp-cont ul li {
+    list-style: none;
+    padding: 7px;
+    font-size: large;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+
+}
+
+.left-temp-cont {
+
+    padding-left: 6px;
+
+}
+
+
+.temp-min-max{
+    display: flex;
+    flex-direction: row;
+}
+
+.right-temp-cont ul li {
+    list-style: none;
+    padding: 7px;
+    font-size: large;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+.right-temp-cont {
+    padding-left: 90px;
+}
+
+
+.wind-detail img {
+    width: 70px;
+margin: 0px;
+padding-left: 26px;
+padding-top: 13px;
+padding-bottom: 8px;}
+
+.wind-detail{
+
+    display: flex;
+    flex-direction: column;
+    width: 19%;
+    background-color: rgba(77, 83, 93, 0.26);
+    margin: 2px;
+    border-radius: 26px;
+    color: #ffffffff;
+    font-size:large;
+    font-weight: bold;
+    height: 24vh;
+    margin-left: 12px;
+    margin-top: 1px;
+padding-left: 30px;
+
+}
+
+/* .windspeeds{
+
+    color: red;
+}
+.winddegree{
+    /* color: red; */
+
+
+
+.wind-speed{
+color: aqua;
+
+}
+
+.cont2-sub{
+padding: 55px;
+
+}
+
+
+.left-temp-cont ul li img{
+    width: 50px;
+
+}
+
+.left-temp-cont ul{
+display: flex;
+flex-direction: column;
+margin-top: 21px;
+margin-left: -590;
+}

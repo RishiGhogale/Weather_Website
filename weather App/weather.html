@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+
+<body>
+    <div class="logo">
+        <img src="clouds.gif" alt="">
+    </div>
+    <div class="main-container">
+        <div class="sidebar">
+            <img src="cloudy.png" alt=""><br><span id="menu-text">Weather</span>
+            <img src="list.png" alt=""><span id="menu-text">Cities</span>
+            <img src="maps-and-flags.png" alt=""><span id="menu-text">Map</span>
+            <img src="control.png" alt=""><span id="menu-text">Setting</span>
+
+
+        </div>
+        <div class="searchbar">
+            <div class="search-cont">
+                <input class="input " type="text" placeholder="Enter City name...... ">
+                <button class="search-btn" type="submit" id="submit">Search</button>
+            </div>
+            <div class="temp-cont">
+                <div class="temperature">
+                    <h1 class="city"><span id="cityName"></span> Mumbai</h1>
+                    <br><br> <br>
+
+                    <h1 class="mytemp"><span class="temp">30 C</span> </h1>
+                    <br>
+                    <br>
+                    <div class="temp1">
+                        <div class="temp-min-max">
+                            <h3 class="min-temp">Min-Temp :<span class="min-temp"> 30</span></h3>
+                            <br>
+                            <h3 class="max-temp">Max-temp : <span id="max-temp">30 </span> </h3>
+
+                        </div>
+                        <div class="weather-Deatail">
+                            <div class="left-temp-cont">
+                                <ul>
+                                    <li class="sunrise2"><img src="sunrise.png" alt=""><span class="sunrise"></span>
+                                        </li>
+                                    <li class="sunset2"><img src="sunset.png" alt=""><span class="sunset"></span>  
+                                    </li>
+                                </ul>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="sunImg">
+                        <Img class="sun" src="sun-9662.png"></Img>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+            <div class="sub-cont">
+                <div class="wind"><img src="Humidity1.png" alt="">
+
+
+                    <div class="windspeed"> <span class="humidity"> Humidity</span> </div>
+                    <!-- <div class="wind-degree"> <span class="wind-degrees">wind-degree : 30</span></div> -->
+                    <span id=""> </span>
+                </div>
+                <div class="wind-detail"><img src="wind1.png" alt="">
+
+
+                    <div class="windspeed"> <span class="windspeeds"> wind-speed :</span> </div>
+                    <div class="wind-degree"> <span class="winddegrees">wind-degree : 30</span></div>
+                    <span id=""> </span>
+                </div>
+                <div class="wind"><img src="cloudy (2).png" alt="">
+
+
+                    <div class="windspeed"> <span class="clouds"> cloud</span> </div>
+                    <div class="wind-degree"> <span class="weather">Rainny</span></div>
+                    <span id=""> </span>
+                </div>
+                <div class="wind"><img src="fog.png" alt="">
+
+
+                    <div class="windspeed"> <span class="visibility"> visibility</span> </div>
+                    <!-- <div class="wind-degree"> <span class="wind-degrees">wind-degree : 30</span></div> -->
+                    <span id=""> </span>
+                </div>
+                <div class="wind"><img src="pressure.png" alt="">
+
+
+                    <div class="windspeed"> <span class="pressure"> pressure</span> </div>
+                    <!-- <div class="wind-degree"> <span class="wind-degrees">wind-degree : 30</span></div> -->
+                    <span id=""> </span>
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+        <div class="right-cont">
+            <div class="cities">
+                <ul>
+                    <li>Dubai<span class="dubai-temp">30'C</span><img class="temp-icon" src="high-temperature.png"
+                            alt="">
+                    </li>
+                    <li>Goa<span class="goa-temp"></span><img class="temp-icon" src="high-temperature.png" alt="">
+                    </li>
+                    <li>Japan<span class="japan-temp"></span><img class="temp-icon" src="high-temperature.png" alt="">
+                    </li>
+                    <li>Banglore<span class="bangalore-temp"></span><img class="temp-icon" src="high-temperature.png"
+                            alt=""></li>
+                    <!-- <li>Newyork<span ></span> <img  class="temp-icon" src="thermometer.png" alt=""></li>
+                <li>ukraine<span ></span> <img  class="temp-icon" src="thermometer.png" alt=""></li>
+                <li>London<span ></span> <img  class="temp-icon" src="thermometer.png" alt=""></li>
+                <li>London<span ></span> <img  class="temp-icon" src="thermometer.png" alt=""></li>
+                <li>London<span ></span> <img  class="temp-icon" src="thermometer.png" alt=""></li> -->
+
+
+
+
+
+                </ul>
+            </div>
+            <div class="cont2">
+                <div class="cont2-sub">
+                    <div class="time">
+                        03:45
+                    </div>
+                    <div class="date">
+                        Friday 20 December 2023
+                    </div>
+                    <div class="location">
+                        <div class="lon">longitude:3242334</div>
+                        <div class="lat">latitude:342334</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <script src="weather.js"></script>
+        <!-- <script src="script.js"></script> -->
+</body>
+
+</html>
